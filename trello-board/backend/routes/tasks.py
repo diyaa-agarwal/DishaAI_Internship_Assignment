@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from uuid import uuid4
 from typing import List
-from backend.models import Task, TaskCreate, TaskUpdate
+from models import Task, TaskCreate, TaskUpdate
 import backend.memory
 
 router = APIRouter()
