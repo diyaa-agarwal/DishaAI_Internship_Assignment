@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
-import Column from './components/column';
+import Column from './column.jsx';
 
 function App() {
   const [columns, setColumns] = useState({});
