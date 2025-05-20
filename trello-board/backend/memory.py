@@ -1,4 +1,4 @@
-from backend.models import Task, Column
+from models import Task, Column
 
 # Columns with fixed metadata
 columns = [
