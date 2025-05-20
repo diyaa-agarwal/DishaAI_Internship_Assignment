@@ -7,7 +7,7 @@ function App() {
   const [columnsMeta, setColumnsMeta] = useState({});
   const [newTaskTitle, setNewTaskTitle] = useState('');
   const [newTaskDescription, setNewTaskDescription] = useState('');
-  const API_BASE = 'http://127.0.0.1:8000/api';
+  const API_BASE = 'https://task-board-7owv.onrender.com/api';
 
   useEffect(() => {
     fetch(`${API_BASE}/columns`)
